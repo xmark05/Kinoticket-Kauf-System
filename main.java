@@ -15,7 +15,10 @@ public class main {
 
         double ticketPreis = berechneTicketPreis(alter, art, Tageszeit);
 
-        System.out.printf("Der Preis für ein Ticket beträgt: %.2f €%n ", ticketPreis);
+        System.out.printf("Der Preis für ein Ticket beträgt: %.2f €%n ", ticketPreis); /* printf = Ausgabe-Text formatiert darzustellen.
+        %.2f Das die Zahl mit 2 Dezimalstellen formatiert wird (z.b. 12.3 wird zu 12.30)
+        %n für ein Zeilenumbruch
+        */ 
 
         scanner.close();
     }
